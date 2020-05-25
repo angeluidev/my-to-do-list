@@ -1,0 +1,73 @@
+body{
+    background: #17BEBB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.btn{
+    width: 70px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #17BEBB;
+    margin: 20px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+li {
+    margin: 20px 0 0 20px;
+}
+
+.delete-btn {
+    width: 60px;
+    height: 25px;
+    background: #FF674D;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.add-btn{
+    background: lightblue;
+    width: 40px;
+    height: 40px;
+    letter-spacing: 2px;
+}
+.app-title{
+    text-align: center;
+    color: #4E4C4D;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.container{
+    width: 50%;
+    height: auto;
+    margin: 60px 0 0 50px;
+    background: #F1FAF4;
+    border-radius: 10px;
+    box-shadow: -5px 4px 25px -13px #000;
+    display: inline-block;
+}
+
+.text {
+    margin-top: 40px;
+}
