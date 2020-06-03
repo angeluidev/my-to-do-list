@@ -57,19 +57,28 @@ class App extends Component {
             onClick={() => this.addItem()}
           >Add</button>
           <br/>
-          <ul>
+          <table>
+            <thead>
+            <tr>
+              <th>Tasks</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
               {this.state.list.map(item => {
                 return(
-                  <li key={item.id}>{item.value}
-                  <button 
+                  <tr key={item.id}>
+                    <td>{item.value}</td>
+                    <button 
                   className = "delete-btn"
                   onClick={() => this.deleteItem(item.id)}>
                   Done
                   </button>
-                  </li>
+                </tr>
                 )
               })}
-          </ul>
+          </tbody>
+          </table>
           </div>
         </div>
       </div>

@@ -25,13 +25,13 @@ input {
     letter-spacing: 1.5px;
 }
 
-ul {
-    list-style: none;
-    font-size: 20px;
-    margin-bottom: 50px;
+table, th {
+    margin: 20px 0 50px 60px;
+    text-align: left;
+    font-size: 15px;
 }
 
-li {
+td {
     margin: 20px 0 0 20px;
 }
 
@@ -42,8 +42,9 @@ li {
     color: #fff;
     border-radius: 8px;
     border: none;
-    margin-left: 20px;
+    margin: 10px 40px 10px 0;
     font-size: 12px;
+    align-content: right;
 }
 
 .add-btn{
@@ -70,4 +71,70 @@ li {
 
 .text {
     margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 80px;
+        background: #F1FAF4;
+        border-radius: 10px;
+        box-shadow: -5px 4px 25px -13px #000;
+        display: inline-block;
+    }
+
+    .app-title{
+        text-align: center;
+        color: #4E4C4D;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+
+    input {
+        width: 80%;
+        height: 20px;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: none;
+        font-size: 13px;
+    }
+
+    .btn{
+        width: 85%;
+        height: 30px;
+        font-size: 12px;
+        border-radius: 8px;
+        border: none;
+        background: #17BEBB;
+        margin-top: 20px;
+        color: #fff;
+        letter-spacing: 1.5px;
+    }
+    table, th {
+        margin: 20px 0 50px 20px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    td {
+        margin: 40px;
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .delete-btn {
+        width: 50px;
+        height: 20px;
+        background: #FF674D;
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+        margin: 10px;
+        font-size: 12px;
+        align-content: right;
+    }
+
 }
